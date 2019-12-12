@@ -40,4 +40,24 @@ class Welcome extends CI_Controller {
 		$this->template->build('blog');
 	}
 
+	public function contact()
+	{
+		$this->template->build('contact');
+	}
+
+	public function product()
+	{
+		$this->template->build('product');
+	}
+
+	public function shop()
+	{
+		$this->template->build('shop');
+	}
+
+	public function cart()
+	{
+		$this->template->build('cart');
+	}
+
 }
